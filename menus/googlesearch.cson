@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle naversearch'
+      'command': 'naversearch:naver-it'
+    }
+  ]
+'menu': [
+  {
+    'label': 'My Packages'
+    'submenu': [
+      'label': 'naver Search'
+      'submenu': [
+        {
+          'label': 'Search'
+          'command': 'naversearch:naver-it'
+        }
+      ]
+    ]
+  }
+]

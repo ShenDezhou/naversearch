@@ -1,0 +1,16 @@
+{
+  "name": "naversearch",
+  "main": "./lib/googlesearch",
+  "version": "1.8.0",
+  "description": "Search Highlighted word in naver",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "naversearch:naver-it"
+  },
+  "repository": "https://github.com/shendezhou/naversearch",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
